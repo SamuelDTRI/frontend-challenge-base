@@ -1,9 +1,13 @@
-import RootLayout from "./layout";
+import Navbar from "@/components/NavBar";
+import Banner from "@/components/Banner";
+import MainLayout from "@/components/MainLayout";
 
 export default function Home(): JSX.Element {
   return (
-    <RootLayout>
-      <h1>Welcome to the Inlaze Next.js Starter!</h1>
-    </RootLayout>
+    <div className="flex flex-col">
+      <Navbar />
+      <Banner />
+      <MainLayout />
+    </div>
   );
 }
