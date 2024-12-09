@@ -1,7 +1,7 @@
 import React from "react";
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 
-const Sidebar = (props) => {
+const Sidebar = () => {
   const genres = [
     "Action",
     "Adventure",
